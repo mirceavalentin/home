@@ -1,0 +1,65 @@
+body
+{
+    background-color: #111111;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h3, p
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#top-line
+{
+    height: 3px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    width: 70%;
+}
+
+
+#bottom-line
+{
+    height: 3px;
+
+    width: 70%;
+}
+
+
+/* FOOTER */
+footer
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link
+{
+    font-size: small;
+    color: rgb(173, 6, 173);
+}
+
+.link:visited
+{
+    color: rgb(228, 154, 228);
+}
+
+.link:hover
+{
+    color: rgb(46, 213, 99);
+}
+
+.link:active
+{
+    color:rgb(135, 0, 133);
+}
+
+#ph_number
+{
+    font-size: small;
+}
