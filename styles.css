@@ -100,11 +100,36 @@ button:hover span:after
     color: rgb(0, 0, 0);
 }
 
-.box-image
+#calculator-box-image
+{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#snake-box-image
 {
     width: 200px;
     padding-left: 50px;
     padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#python-box-image
+{
+    width: 150px;
+    height: 150px;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#assembly-box-image
+{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -143,12 +168,6 @@ button:hover span:after
     color:rgb(135, 0, 133);
 }
 
-iframe
-{
-    width: 420px;
-    height: 315px;
-    border-width: 0;
-}
 
 /* FOOTER */
 footer

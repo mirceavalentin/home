@@ -1,27 +1,25 @@
-// Calculator instructions
 
 const calculatorScreen = document.getElementById("calculatorScreen");
 
-function appendToDisplay(input)
+function appendToDisplay(input) 
 {
     calculatorScreen.value += input;
 }
 
-function clearScreen()
+function clearScreen() 
 {
     calculatorScreen.value = ""; 
-    // calculator screen is set to empty string.
 }
 
-function calculate()
+// Using math library in order to not use eval() in production code.
+function calculate() 
 {
-    // error handling for the eval function
-    try
+    try 
     {
-        calculatorScreen.value = eval(calculatorScreen.value);
-    }
-    catch(error)
+        calculatorScreen.value = math.evaluate(calculatorScreen.value);
+    } 
+    catch (error) 
     {
-        calculatorScreen.value = "Error"
+        calculatorScreen.value = "Error";
     }
 }

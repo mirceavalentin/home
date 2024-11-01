@@ -63,7 +63,7 @@ body
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* repeat tells 4 collumns and 1fr (fractional unit - each collumns is equal space) */
+    /* Repeat tells 4 collumns and 1fr (fractional unit - each collumns is equal space) */
     gap: 10px;
     padding: 10px;
     background-color: rgb(14, 13, 13);
