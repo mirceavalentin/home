@@ -2,33 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Mobile Compatibility-->
+  <title>Portfolio - Home</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
+  <header>
   <h1>My Portfolio Page</h1>
   <h3>Marinescu Mircea-Valentin</h3>
+  </header>
   <section>
-    <p id="bio">Hi. I study Economic Informatics at the Faculty of Economic Cybernetics, Statistics and Informatics within ASE in Bucharest.</p>
-    <p id="bio2">I am interested in software development, particularly in <strong>web development, business and user-oriented pieces of software.</strong></p>
-    <p id="bio3">This page showcases some personal projects I've written so far. All code and avalaible on my <a href="https://github.com/mirceavalentin/marinescumv.ro">GitHub page</a>.</p>
-    <p id="bio4">In case you have any inquiries, my contact information is at the bottom of the page. <strong>Enjoy!</strong>.</p>
+    <p>Hi. I'm currently studying Economic Informatics at the Faculty of Economic Cybernetics, Statistics and Informatics within ASE in Bucharest.</p>
+    <p>I am interested in software development, particularly in <strong>web development, business and user-oriented pieces of software.</strong></p>
+    <p>This page showcases some personal projects I've written so far. All code and descriptions is avalaible on my <a href="https://github.com/mirceavalentin/marinescumv.ro" class="link">GitHub page</a>.</p>
+    <p>In case you have any inquiries, my contact information is at the bottom of the page. <strong>Enjoy!</strong>.</p>
   </section>
+
+  <hr id="top-line">
 
   <section id="projects">
+    <div class="box-container">
+
+        <div class="box">
+          <h4 class="box-title">Dynamic iPhone style Calulator</h4>
+          <img src="calculator-2017-10-10.avif" class="box-image">
+          <a href="calculator.html"><button><span>Try it out!</span></button></a>
+          <p class="box-description">This is an iPhone style calculator using JavaScript and HTML/CSS tools.</p>
+          <p class="box-link">The code used for this project is avalaible <a href="www.google.com" class="link">here.</a></p>
+        </div>
+
+        <div class="box">
+          <h4 class="box-title">Snake Game using HTML/CSS</h4>
+          <img src="/media/snake-photo.JPG" class="box-image">
+          <a href="/snake.html"><button><span>Try it out!</span></button></a>
+          <p class="box-description">This is the Snake Game written in JavaScript, HTML and CSS.</p>
+          <p class="box-link">The code used for this project is avalaible <a href="https://www.google.com" class="link">here.</a></p>
+        </div>
+
+        <div class="box">
+          <h4 class="box-title">Python3 Chatroom with Sockets</h4>
+          <img src="calculator-2017-10-10.avif" class="box-image">
+          <a href="https://google.com"><button><span>Try it out!</span></button></a>
+          <p class="box-description">Small chatroom using Python3 sockets.</p>
+          <p class="box-link">Tutorial to run and use the code for this project is avalaible <a href="www.google.com" class="link">here.</a></p>
+        </div>
+
+        <div class="box">
+          <h4 class="box-title">Other small Personal Projects</h4>
+          <img src="snake.webp" class="box-image">
+          <a href="https://google.com"><button><span>Check them out!</span></button></a>
+          <p class="box-description">These include: x86-64 Assembly AT&T programs (Factorial, Increment, <strong>Unix's Diff program</strong>), and <strong>Python3 chatrooms using sockets</strong>.</p>
+          <p class="box-link">Code and readme's avalaible <a href="www.google.com" class="link">here.</a></p>
+        </div>
+
+    </div>
   </section>
+
+  <hr id="bottom-line">
+
 </body>
 
-<hr id="top-line">
-<hr id="bottom-line">
 
 <footer>
-  <p class="link"><a href="mailto:marinescmirceavalentin@gmail.com">Email</a></p>
-  <p class="link"><a href="https://www.linkedin.com/in/mirceavalentin/">Linkedin</a></p>
+  <p><a href="mailto:marinescmirceavalentin@gmail.com" class="footer-link">Email</a></p>
+  <p><a href="https://www.linkedin.com/in/mirceavalentin/" class="footer-link">Linkedin</a></p>
   <p id="ph_number">+40730282309</p>
+  <p id="notification"><strong>Currently</strong> implementing mobile compatibility of this page using Bootstrap.</p>
+  </iframe>
 </footer>
 
 </html>

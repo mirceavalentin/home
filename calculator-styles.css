@@ -1,0 +1,108 @@
+body
+{
+    background-color: rgb(160, 160, 160);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#descriptionBox
+{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.link
+{
+    color: rgb(173, 6, 6);
+}
+
+.link:visited
+{
+    color: rgb(199, 26, 26);
+}
+
+.link:hover
+{
+    color: rgb(46, 213, 99);
+}
+
+.link:active
+{
+    color:rgb(135, 0, 133);
+}
+
+#calculator
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#calculatorScreen
+{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border:none;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+#calculatorButtons
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* repeat tells 4 collumns and 1fr (fractional unit - each collumns is equal space) */
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(14, 13, 13);
+}
+
+.operatorButton
+{
+    background-color: rgb(192, 110, 34);
+}
+
+.operatorButton:hover
+{
+    background-color: rgb(228, 123, 4);
+}
+
+.operatorButton:active
+{
+    background-color: rgb(221, 162, 0);
+}
+
+button
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(58, 58, 58);
+}
+
+button:active
+{
+    background-color: rgb(114, 114, 114);
+}

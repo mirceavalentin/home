@@ -1,9 +1,14 @@
 body
 {
-    background-color: #111111;
+    background-color: rgb(9, 14, 29);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
+
+h1{padding-top: 30px;}
+
+#notification{font-size: small; color: rgb(146, 0, 0);}
 
 h1, h3, p
 {
@@ -13,34 +18,113 @@ h1, h3, p
     text-align: center;
 }
 
+.box-container 
+{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box
+{
+    border-radius: 25px;
+    padding: 20px;
+    margin-right: 50px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(219, 218, 218);
+    color: black;
+}
+
+button
+{
+    display: block;
+    margin: 10px auto 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 219);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button span 
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after 
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span 
+{
+    padding-right: 25px;
+}
+
+button:hover span:after 
+{
+    opacity: 1;
+    right: 0;
+}
+
+.box-title
+{
+    font-size: 105%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.box-description
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.box-image
+{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
 
 #top-line
 {
     height: 3px;
     margin-top: 30px;
-    margin-bottom: 150px;
+    margin-bottom: 30px;
     width: 70%;
 }
-
 
 #bottom-line
 {
     height: 3px;
-
-    width: 70%;
-}
-
-
-/* FOOTER */
-footer
-{
     margin-top: 30px;
-    text-align: center;
+    width: 70%;
 }
 
 .link
 {
-    font-size: small;
     color: rgb(173, 6, 173);
 }
 
@@ -55,6 +139,41 @@ footer
 }
 
 .link:active
+{
+    color:rgb(135, 0, 133);
+}
+
+iframe
+{
+    width: 420px;
+    height: 315px;
+    border-width: 0;
+}
+
+/* FOOTER */
+footer
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-link
+{
+    font-size: small;
+    color: rgb(173, 6, 173);
+}
+
+.footer-link:visited
+{
+    color: rgb(228, 154, 228);
+}
+
+.footer-link:hover
+{
+    color: rgb(46, 213, 99);
+}
+
+.footer-link:active
 {
     color:rgb(135, 0, 133);
 }

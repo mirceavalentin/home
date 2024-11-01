@@ -1,0 +1,65 @@
+.link
+{
+    color: rgb(173, 6, 6);
+}
+
+.link:visited
+{
+    color: rgb(199, 26, 26);
+}
+
+.link:hover
+{
+    color: rgb(46, 213, 99);
+}
+
+.link:active
+{
+    color:rgb(135, 0, 133);
+}
+
+#gameContainer
+{
+    text-align: center;
+}
+
+#gameBoard
+{
+    border: 3px solid;
+}
+
+#scoreText
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+}
+
+body
+{
+    background-color: rgb(9, 14, 29);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+}
+
+canvas
+{
+    color: rgb(177, 120, 231);
+}
+
+#pageTitle
+{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+#resetBtn
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+} 
