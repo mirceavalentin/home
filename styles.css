@@ -4,6 +4,7 @@ body
     color: white;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
+    zoom:80%;
 }
 
 h1{padding-top: 30px;}
